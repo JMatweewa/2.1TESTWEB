@@ -1,1 +1,1 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/wo1ec24h4r3y6qa4?svg=true)](https://ci.appveyor.com/project/JMatweewa/2-1-testweb)
+[![Build status](https://ci.appveyor.com/api/projects/status/6lw46rlqobky7v0p?svg=true)](https://ci.appveyor.com/project/JMatweewa/2-1testweb)
