@@ -1,6 +1,5 @@
 package ru.netology.web;
 
-import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.exactText;
@@ -16,7 +15,6 @@ class CallbackTest {
         $("[data-test-id=phone] input").setValue("+79270000000");
         $("[data-test-id=agreement]").click();
         $("[role=button]").click();
-        $(".order-success").shouldHave(exactText("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время."));
-
+        $("[data-test-id=order-success").shouldHave(exactText("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время."));
     }
 }
